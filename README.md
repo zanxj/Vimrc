@@ -10,10 +10,10 @@ cp ~/.vimrc ~/.vimrc_bak
 ## 2. Get vimrc
 ### 2.1 From Github
 ```
-sudo curl https://github.com/zanxj/Vimrc/blob/main/vimrc > ~/.vimrc
+curl https://raw.githubusercontent.com/zanxj/Vimrc/main/vimrc > ~/.vimrc
 ```
 ### 2.2 From Gitee
 ```
-sudo curl https://gitee.com/zanxj/vimrc/blob/main/vimrc > ~/.vimrc
+curl https://gitee.com/zanxj/vimrc/raw/main/vimrc > ~/.vimrc
 ```
 ### 2.3 Well done
