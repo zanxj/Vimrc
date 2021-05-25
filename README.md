@@ -1,17 +1,19 @@
 # Vimrc
 
-A simple vim configuration for Linux, no plugins.
+A simple vim configuraton file, no plugins.
 
 # Install
-
-#### 1. Back up old files if necessary
-
+## 1. Back up original vimrc if necessary
 ```
 cp ~/.vimrc ~/.vimrc_bak
 ```
-#### 2. Get vimrc
-
+## 2. Get vimrc
+### 2.1 From Github
 ```
-sudo curl https://onlyou.coding.net/public/Vim-for-Linux/Vim-for-Linux/git/files/master/vimrc > ~/.vimrc
+sudo curl https://github.com/zanxj/Vimrc/blob/main/vimrc > ~/.vimrc
 ```
-#### 3. Well done
+### 2.2 From Gitee
+```
+sudo curl https://gitee.com/zanxj/vimrc/blob/main/vimrc > ~/.vimrc
+```
+### 2.3 Well done

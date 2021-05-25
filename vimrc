@@ -1,11 +1,12 @@
 "==========================================
 " Title: Vimrc-for-Linux
-" ProjectLink: https://onlyou.coding.net/public/Vim-for-Linux/Vim-for-Linux/git/files
+" Github Project Link: https://github.com/zanxj/Vimrc
+" Gitee  Project Link: https://gitee.com/zanxj/vimrc
 " Author:  zanxj
 " Version: 0.2
 " ReadMe: README.md
-" Last_modify: 2021-05-24
-" Desc: A simple vim config for Linux, no plugins.
+" Last_modify: 2021-05-25
+" Desc: A simple vim configuraton file, no plugins.
 "==========================================
 
 
@@ -20,8 +21,8 @@ set ffs=unix,dos,mac
 
 " Syntax
 syntax on                         " Enable syntax highlighting.
-set cursorline
-set cursorcolumn
+set cursorline                    " The line where the cursor is currently located
+set cursorcolumn                  " The column where the cursor is currently located
 
 
 " Basis Options
