@@ -1,6 +1,6 @@
-# Vimrc-for-Linux
+# Vimrc
 
-A simple vim configuratn file, no plugioins.
+A simple vim configuration for Linux, no plugins.
 
 # Install
 
