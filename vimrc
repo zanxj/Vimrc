@@ -70,7 +70,7 @@ set statusline=%<%f\ %h%m%r%=%{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\"
 
 
 " Indention
-set autoindent                    
+set autoindent
 set smartindent
 set smarttab
 set shiftround                    " When shifting lines, round the indentation to the nearest multiple of “shiftwidth”.
@@ -108,7 +108,7 @@ hi! link ShowMarksHLu DiffChange
 
 
 " Filetype
-tiletype on
+filetype on
 
 
 " Cancel all indentation
