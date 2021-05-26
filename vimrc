@@ -3,9 +3,9 @@
 " Github Project Link: https://github.com/zanxj/Vimrc
 " Gitee  Project Link: https://gitee.com/zanxj/vimrc
 " Author:  zanxj
-" Version: 0.2
+" Version: 0.3
 " ReadMe: README.md
-" Last_modify: 2021-05-25
+" Last_modify: 2021-05-26
 " Desc: A simple vim configuraton file, no plugins.
 "==========================================
 
