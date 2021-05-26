@@ -20,13 +20,14 @@ set ffs=unix,dos,mac
 
 
 " Syntax
+set nocompatible                  " Not compatible with Vi.
 syntax on                         " Enable syntax highlighting.
-set cursorline                    " The line where the cursor is currently located
-set cursorcolumn                  " The column where the cursor is currently located
+set cursorline                    " The line where the cursor is currently located.
+set cursorcolumn                  " The column where the cursor is currently located.
 
 
 " Basis Options
-set magic                         " For regular expressions turn magic on
+set magic                         " For regular expressions turn magic on.
 set history=1000                  " Operation history.
 set nocompatible                  " Remove vi consistency.
 set autoread                      " Automatically loaded when the file is changed.
@@ -62,9 +63,9 @@ set background=dark               " Use colors that suit a dark background.
 colorscheme desert                " Change color scheme.
 set selection=inclusive           " Including selection
 set selectmode=mouse,key          " Select mode including mouse and key
-set completeopt=longest,menu      " Intelligent completion
+set completeopt=longest,menu      " Intelligent completion.
 set wildmenu                      " Display command line’s tab complete options as a menu.
-set wildmode=longest,list,full    " TAB command auto completion configuration
+set wildmode=longest,list,full    " TAB command auto completion configuration.
 set wildignore=*.o,*~,*.pyc,*.class    "Ignore files matching these patterns when opening files based on a glob pattern.
 set statusline=%<%f\ %h%m%r%=%{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%k\ %-14.(%l,%c%V%)\ %P
 
@@ -93,10 +94,9 @@ set smartcase                     " Automatically switch search to case-sensitiv
 "set foldnestmax=3                 " Only fold up to three nested levels.
 
 
-" Mark column color
-hi! link SignColumn   LineNr
-hi! link ShowMarksHLl DiffAdd
-hi! link ShowMarksHLu DiffChange
+" Mark the color of rows and columns
+highlight CursorLine cterm=UnderLine ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
+highlight CursorColumn cterm=NONE ctermbg=Magenta ctermfg=white guibg=NONE guifg=NONE
 
 
 " Symbol completion
@@ -108,9 +108,9 @@ hi! link ShowMarksHLu DiffChange
 
 
 " Filetype
-filetype on
+filetype on                       " Turn on file type detection
 
 
 " Cancel all indentation
-"filetype indent off              " Disabling file type based indentation for a specific file type
-"set noai nocin nosi inde=        " Disabling file type based indentation for all file types(noautoindent nocindent nosmartindent indentexpr=)
+"filetype indent off              " Disabling file type based indentation for a specific file type.
+"set noai nocin nosi inde=        " Disabling file type based indentation for all file types(noautoindent nocindent nosmartindent indentexpr=).
