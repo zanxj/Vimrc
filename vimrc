@@ -42,8 +42,6 @@ set visualbell t_vb=              " Prohibit error reporting.
 set whichwrap+=<,>,h,l
 set t_vb=
 set tm=500
-set paste
-set shortmess=atI
 
 
 " Display
