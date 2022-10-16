@@ -13,7 +13,7 @@
 " Encoding
 set encoding=utf-8
 set termencoding=utf-8
-set fileencodings=ucs-bom,utf-8,cp936,gbk,gb18030,big5,euc-jp,euc-kr,latin1
+set fileencodings=ucs-bom,utf-8,utf-16,cp936,gbk,big5,gb18030,euc-jp,euc-kr,latin1
 set formatoptions+=m
 set formatoptions+=B
 set ffs=unix,dos,mac
