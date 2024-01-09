@@ -5,7 +5,7 @@
 " Author:  zanxj
 " Version: 0.4
 " ReadMe: README.md
-" Last_modify: 2023-09-21
+" Last_modify: 2024-01-09
 " Desc: A simple vim configuraton file, no plugins.
 "==========================================
 
@@ -45,7 +45,11 @@ set tm=500
 
 
 " Display
-set mouse=a                       " Enable mouse for scrolling and resizing.
+if has('mouse')
+    set mouse=a                   " Enable mouse for scrolling and resizing.
+	set mouse=r                   " Enable mouse copy and paste.
+endif
+
 set number                        " Display line number.
 set ruler                         " Display ruler.
 set nowrap                        " Does't automatically wrap.
@@ -93,8 +97,10 @@ set smartcase                     " Automatically switch search to case-sensitiv
 
 
 " Mark the color of rows and columns
-highlight CursorLine cterm=UnderLine ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
-highlight CursorColumn cterm=NONE ctermbg=Red ctermfg=white guibg=NONE guifg=NONE
+"highlight CursorLine cterm=UnderLine ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
+"highlight CursorColumn cterm=NONE ctermbg=Red ctermfg=white guibg=NONE guifg=NONE
+highlight CursorLine cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+highlight CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 
 
 " Symbol completion
