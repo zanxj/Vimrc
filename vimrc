@@ -97,10 +97,10 @@ set smartcase                     " Automatically switch search to case-sensitiv
 
 
 " Mark the color of rows and columns
-"highlight CursorLine cterm=UnderLine ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
-"highlight CursorColumn cterm=NONE ctermbg=Red ctermfg=white guibg=NONE guifg=NONE
-highlight CursorLine cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
-highlight CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+highlight CursorLine cterm=UnderLine ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
+highlight CursorColumn cterm=NONE ctermbg=DarkRed ctermfg=White guibg=NONE guifg=NONE
+"highlight CursorLine cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+"highlight CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 
 
 " Symbol completion
