@@ -17,6 +17,7 @@ set fileencodings=ucs-bom,utf-8,utf-16,cp936,gbk,big5,gb18030,euc-jp,euc-kr,lati
 set formatoptions+=m
 set formatoptions+=B
 set ffs=unix,dos,mac
+set fileformat=unix
 
 
 " Syntax
